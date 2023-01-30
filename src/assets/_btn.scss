@@ -1,0 +1,16 @@
+%Btn {
+  border: 1px solid $color;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn {
+  @extend %Btn;
+}
+.Btn-primary {
+  @extend %Btn;
+  background-color: $color;
+  color: $background-color;
+  border-radius: 50%;
+}
